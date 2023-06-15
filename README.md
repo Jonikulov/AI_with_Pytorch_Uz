@@ -39,11 +39,11 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 # Machine Learning & Deep Learning (barcha uchun):
 
 | Darslar | Mavzu | Videolar | Slaydlar |
-|-|-|-|-|
+|:-:|-|:-:|:-:|
 | 1-dars | Kirish (Overview) | [1-video](https://youtu.be/19y92GtzFck) | [1-slayd](lecture_slides/1-Overview.pdf) |
 | 2-dars | Chiziqli Model (Linear Model) | [2-video](https://youtu.be/VyC2j5zIsNI) | [2-slayd](lecture_slides/2-Linear-Model.pdf) |
 | 3-dars | Gradient Pastlash (Gradient Descent) | [3-video](https://youtu.be/US41FuoLIZs) | [3-slayd](lecture_slides/3-Gradient-Descent.pdf) |
-| 4-dars | Teskari hisoblash va Avtograd (Backpropagation & Autograd) | [4- video&autograd](https://youtu.be/to51-_wnugw) | [4-slayd](lecture_slides/4-Backpropagation%26Autograd.pdf) |
+| 4-dars | Teskari hisoblash va Avtograd (Backpropagation & Autograd) | [4-video](https://youtu.be/to51-_wnugw) | [4-slayd](lecture_slides/4-Backpropagation%26Autograd.pdf) |
 | 5-dars | Chiziqli Regressiya (Linear Regression) |[5-video](https://youtu.be/mQLyl_zj-dQ) |[5-slayd](lecture_slides/5-Linear-Regression.pdf)|
 |6-dars | Mantiqiy Regressiya (Logistic Regression) | [6-video](https://youtu.be/ShOM_K9jjMc)  | [6-slayd](lecture_slides/6-Logistic-Regression.pdf) |
 |7-dars| Wide and Deep | [7-video](https://youtu.be/cgWljGIYVxo)|[7-slayd](lecture_slides/7-Wide%26Deep.pdf)
