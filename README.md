@@ -1,7 +1,7 @@
 Web page version of this README: https://mansurcompai.github.io/AI_with_PythonPytorch_Uz/
 
 ---
-# Assalomu alaykum! Sun'iy Intellektni Python (Pytorch) orqali o'rganamiz.
+# Assalomu Alaykum! Sun'iy Intellektni Python (Pytorch) orqali o'rganamiz.
 
 Bizning maqsadimiz, sun'iy intellekt haqida sizlarda tasavvur uyg'otish hamda uni qo'llash ko'nikmalarini oshirish.
 Ushbu web-sahifamiz orqali muntazzam darsliklar yangilab boriladi hamda, siz o'rganuvchilar uchun taqdim qilinadi.
@@ -17,7 +17,7 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 ### Oldindan qo'yiladigan talablar (Pre-requisites):
 
 - Matematika:
-   - Boshlang'ich Algebra
+   - Boshlang'ich algebra
    - Chiziqli algebra (Linear ALgebra)
    - Ehtimollar nazariyas (Probability)
 - Dasturlash Tili:
@@ -36,7 +36,7 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 
 ---
 
-# Machine Learning & Deep Learning (barcha uchun):
+# Machine Learning & Deep Learning:
 
 | Darslar | Mavzu | Videolar | Slaydlar |
 |:-:|-|:-:|:-:|
