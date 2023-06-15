@@ -36,7 +36,7 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 
 ---
 
-# Machine Learning & Deep Learning (barcha uchun):
+# Machine Learning & Deep Learning:
 
 | Darslar | Mavzu | Videolar | Slaydlar |
 |-|-|-|-|
