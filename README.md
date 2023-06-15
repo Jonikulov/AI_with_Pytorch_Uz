@@ -1,3 +1,6 @@
+Web page version of this README: https://mansurcompai.github.io/AI_with_PythonPytorch_Uz/
+
+---
 # Assalom aleykum! Sun'iy Intellektni Python(Pytorch) orqali o'rganamiz.
 
 Bizning maqsadimiz, sun'iy intellekt haqida sizlarda tasavvur uyg'otish hamda uni qo'llash ko'nikmalarini oshirish.
@@ -43,7 +46,7 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 |7-dars| Deep and Wide | [7-dars. Deep and Wide](https://youtu.be/cgWljGIYVxo)|[file](Slides//7-lecture.pdf)
 |8-dars| PyTorch Dataloader | [8-dars. PyTorch dataloader](https://youtu.be/2_Ne2u6vfyI) |[file](Slides//8-lecture.pdf)
 |9-dars| Softmax |[9-dars. Softmax](https://youtu.be/teSlBo3-RIM) |[file](Slides//9-lecture.pdf)|
-|10-dars| CNN asoslari | [10-dars. CNN asoslari](https://www.youtube.com/watch?v=HnhJ5rCqLdI&t=1686s)| file|
+|10-dars| CNN asoslari | [10-dars. CNN asoslari](https://www.youtube.com/watch?v=HnhJ5rCqLdI&t=1686s)| - |
 
 ---
 
@@ -56,7 +59,6 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 **Telegram :** [*@amduzadmin*](https://t.me/amduzadmin)
 
 **Linkedln :** *[Mansurbek Abdullaev](https://www.linkedin.com/in/mansurbek-abdullayev-16635419a/)*
-
 
 
 # **Manbalarimiz**
