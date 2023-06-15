@@ -57,11 +57,11 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 
 **Administrator, creator:** *Mansurbek Abdullaev*
 
-**Mail:** *[mansurbek.comchemai@gmail.com](mansurbek.comchemai@gmail.com)*
+**Mail:** *[mansurbek.comchemai@gmail.com](mailto:mansurbek.comchemai@gmail.com)*
 
 **Telegram :** [*@amduzadmin*](https://t.me/amduzadmin)
 
-**Linkedln :** *[Mansurbek Abdullaev](https://www.linkedin.com/in/mansurbek-abdullayev-16635419a/)*
+**Linkedln :** *[Mansurbek Abdullaev](https://www.linkedin.com/in/mansurbek-abdullaev-16635419a/)*
 
 
 # **Manbalarimiz**
@@ -70,4 +70,4 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 - [Facebook](https://www.facebook.com/groups/uzbekai)
 
 
-#### Biz bilan qolganingiz uchun tashakkur.
+#### Biz bilan qolganingiz uchun tashakkur!
