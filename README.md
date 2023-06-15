@@ -17,7 +17,7 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 ### Oldindan qo'yiladigan talablar (Pre-requisites):
 
 - Matematika:
-   - Boshlang'ich Algebra
+   - Boshlang'ich algebra
    - Chiziqli algebra (Linear ALgebra)
    - Ehtimollar nazariyas (Probability)
 - Dasturlash Tili:
