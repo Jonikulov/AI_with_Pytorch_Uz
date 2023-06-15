@@ -40,16 +40,16 @@ Bilimlaringizni oshirish maqsadida bir qancha topshiriqlar aynan shu yerda berib
 
 | Darslar | Mavzu | Videolar | Slaydlar |
 |-|-|-|-|
-| 1-dars | Kirish (Overview) | [1-video](https://youtu.be/19y92GtzFck) | [1-slayd](lecture_slides/1. Overview.pdf) |
-| 2-dars | Chiziqli model (Linear Model) | [2- video dars. Chiziqli model](https://youtu.be/VyC2j5zIsNI) | [2-slayd](lecture_slides/2-lecture(Chiziqli_model).pdf) |
-| 3-dars | Gradient Pastlash (Gradient Descent) | [3- video dars. Gradient Pastlash](https://youtu.be/US41FuoLIZs) | [3-slayd](lecture_slides/3-lecture(Gradient_Descent).pdf) |
-| 4-dars | Teskari hisoblash va avtograd (Backpropagation & Autograd) | [4- video dars. Teskari hisoblash&autograd](https://www.youtube.com/watch?v=to51-_wnugw) | [4-slayd](lecture_slides/4-lecture.pdf) |
-| 5-dars | Chiziqli Regressiya |[5- video dars. Chiziqli regressiya PyTorch](https://www.youtube.com/watch?v=mQLyl_zj-dQ) |[5-slayd](lecture_slides/5-lecture.pdf)|
-|6-dars | Mantiqiy Regressiya | [6- video dars. Mantiqiy regressiya Pytorch](https://www.youtube.com/watch?v=ShOM_K9jjMc&feature=youtu.be)  | [6-slayd](lecture_slides/6-lecture.pdf) |
-|7-dars| Deep and Wide | [7- video dars. Wide & Deep](https://youtu.be/cgWljGIYVxo)|[7-slayd](lecture_slides/7-lecture.pdf)
-|8-dars| PyTorch Dataloader | [8- video dars. PyTorch dataloader](https://youtu.be/2_Ne2u6vfyI) |[8-slayd](lecture_slides/8-lecture.pdf)
-|9-dars| Softmax |[9- video dars. Softmax](https://youtu.be/teSlBo3-RIM) |[9-slayd](lecture_slides/9-lecture.pdf)|
-|10-dars| CNN asoslari | [10- video dars. CNN asoslari](https://www.youtube.com/watch?v=HnhJ5rCqLdI&t=1686s)| — |
+| 1-dars | Kirish (Overview) | [1-video](https://youtu.be/19y92GtzFck) | [1-slayd](lecture_slides/1-Overview.pdf) |
+| 2-dars | Chiziqli Model (Linear Model) | [2-video](https://youtu.be/VyC2j5zIsNI) | [2-slayd](lecture_slides/2-Linear-Model.pdf) |
+| 3-dars | Gradient Pastlash (Gradient Descent) | [3-video](https://youtu.be/US41FuoLIZs) | [3-slayd](lecture_slides/3-Gradient-Descent.pdf) |
+| 4-dars | Teskari hisoblash va Avtograd (Backpropagation & Autograd) | [4- video&autograd](https://youtu.be/to51-_wnugw) | [4-slayd](lecture_slides/4-Backpropagation%26Autograd.pdf) |
+| 5-dars | Chiziqli Regressiya (Linear Regression) |[5-video](https://youtu.be/mQLyl_zj-dQ) |[5-slayd](lecture_slides/5-Linear-Regression.pdf)|
+|6-dars | Mantiqiy Regressiya (Logistic Regression) | [6-video](https://youtu.be/ShOM_K9jjMc)  | [6-slayd](lecture_slides/6-Logistic-Regression.pdf) |
+|7-dars| Wide and Deep | [7-video](https://youtu.be/cgWljGIYVxo)|[7-slayd](lecture_slides/7-Wide%26Deep.pdf)
+|8-dars| PyTorch Dataloader | [8-video](https://youtu.be/2_Ne2u6vfyI) |[8-slayd](lecture_slides/8-PyTorch-DataLoader.pdf)
+|9-dars| Softmax |[9-video](https://youtu.be/teSlBo3-RIM) | [9-slayd](lecture_slides/9-Softmax.pdf)|
+|10-dars| CNN asoslari | [10-video](https://youtu.be/HnhJ5rCqLdI)| — |
 
 ---
 
