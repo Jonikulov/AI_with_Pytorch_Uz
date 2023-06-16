@@ -1,4 +1,4 @@
-Web page version of this README: https://mansurcompai.github.io/AI_with_PythonPytorch_Uz/
+**Web page version of this README: https://mansurcompai.github.io/AI_with_PythonPytorch_Uz/**
 
 ---
 # Assalomu Alaykum! Sun'iy Intellektni Python (Pytorch) orqali o'rganamiz.
