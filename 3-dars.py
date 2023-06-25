@@ -1,42 +1,35 @@
-# Training Data(O'rgatishdagi ma'lumotlar)
+# Train Data (o'rgatishdagi ma'lumotlar)
 x_soat = [1.0, 2.0, 3.0]
 y_baho = [2.0, 4.0, 6.0]
 
-w = 1.0  #w uchun dastalbki taxminiy qiymat
+w = 1.0  # weight uchun dastlabki taxminiy qiymat
 
-
-# (Modelimiz)To'g'ri hisoblash uchun funksiya
 def forward(x):
+    """To'g'riga hisoblash funksiyasi"""
     return x * w
 
+def loss(y_true, y_pred):
+    """Xatolik (loss)ni hisoblash funksiyasi"""
+    return (y_true - y_pred) ** 2
 
-# Xatolik (Loss) ning funkisyasi
-def loss(x, y):
-    y_pred = forward(x)
-    return (y_pred - y) * (y_pred - y)
-
-
-# Gradient uchun funksiya
-def gradient(x, y):  # d_loss/d_w
+def gradeint(x, y):  # d_loss / d_weight
+    """Gradientni hisoblash funksiyasi"""
     return 2 * x * (x * w - y)
 
+print(f"Bashorat (training'dan avval): Soat: 4, Baho: {forward(4)}\n")
 
-# Training dan avval
-print("Bashorat (training dan avval)",  "4 soat o'qilganda:", forward(4))
+# Training loop
+epochs_num = 10
+lr = 0.01  # learning rate
+for epoch in range(epochs_num):
+    print(f'Epoch {epoch+1}/{epochs_num}:')
+    for x, y in zip(x_soat, y_baho):
+        y_pred = forward(x)  # forward
+        error = loss(y, y_pred)  # loss
+        grad = gradeint(x, y)  # gradient
+        w = w - lr * grad  # update the weight
 
-# Training zanjiri (loop)
-learning_rate =0.01
-for epoch in range(10):
-    for x_hb_qiym, y_hb_qiym in zip(x_soat, y_baho):
-        # Hosilani hisoblash
-        # w ning qiymatini yangilash
-        # xatolikni hisoblab progressni chop qilish
-        grad = gradient(x_hb_qiym, y_hb_qiym)
-        w = w - learning_rate * grad
-        print("\tgrad: ", x_hb_qiym, y_hb_qiym, round(grad, 2))
-        l = loss(x_hb_qiym, y_hb_qiym)
-    print("progress:", epoch, "w=", round(w, 2), "loss=", round(l, 2))
+        print(f'\tx: {x}\ty: {y}\tpred: {y_pred:.3f}\t' \
+              f'loss: {error:.3f}\tgrad: {grad:.3f}')
 
-# Traningdan so'ng
-print("Bashorat (training dan keyin)",  "4 saot o'qilganda: ", forward(4))
-
+print(f"\nBashorat (training'dan keyin): Soat: 4, Baho: {forward(4)}")

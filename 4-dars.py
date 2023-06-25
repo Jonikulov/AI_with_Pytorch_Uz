@@ -1,39 +1,32 @@
-#Kerakli kutubxonalrni chaqirib olish
 import torch
 
+# Train Data (o'rgatishdagi ma'lumotlar)
 x_soat = [1.0, 2.0, 3.0]
 y_baho = [2.0, 4.0, 6.0]
 
+w = torch.tensor([1.0], requires_grad=True)  # taxminiy qiymat
 
-w = torch.tensor([1.0], requires_grad=True) #Taxminiy qiymat
-
-# (Modelimiz)To'g'ri hisoblash uchun funksiya
 def forward(x):
+    """To'g'riga hisoblash funksiyasi"""
     return x * w
 
+def loss(y_true, y_pred):
+    """Xatolik (loss)ni hisoblash funksiyasi"""
+    return (y_true - y_pred) ** 2
 
-# Xatolik (Loss) ning funkisyasi
-def loss(y_pred, y_val):
-    return (y_pred - y_val) ** 2          
+print(f"Bashorat (training'dan avval): Soat: 4, Baho: {forward(4).item()}\n")
 
-# Training dan avval
-print("Bashorat (training dan avval)",  "4 soat o'qilganda:", forward(4))
-# Training zanjiri (loop)
-learning_rate = 0.01
-for epoch in range(10):
-    for x_hb_qiym, y_hb_qiym in zip(x_soat, y_baho):
-        y_pred = forward(x_hb_qiym) # 1) Forward hisoblash
-        l = loss(y_pred, y_hb_qiym) # 2) Loss ni hisoblash
-        l.backward() # 3) backward hisoblash
-        print("\tgrad: ", x_hb_qiym, y_hb_qiym, '{:.3f}'.format(w.grad.item()))
-        w.data = w.data - learning_rate * w.grad.item()  #W ning qiymatini yangilash
+# Training loop
+epochs_num = 10
+lr = 0.01  # learning rate
+for epoch in range(epochs_num):
+    for x, y in zip(x_soat, y_baho):
+        y_pred = forward(x)  # forward
+        l = loss(y, y_pred)  # loss
+        l.backward()  # calculate backward
+        print(f'\tx: {x}\ty: {y}\tgrad: {w.grad.item():.3f}')
+        w.data = w.data - lr * w.grad.item()  # update the weight
+        w.grad.data.zero_()  # zero the gradient for the next epoch
+    print(f'Epoch {epoch+1}/{epochs_num} | Loss: {l.item():.3f}\n')
 
-        # w ning qiymattini yangilagach, nolga tenglashtirish
-        w.grad.data.zero_()
-
-    print(f"Epoch: {epoch} | Loss: {l.item()}")
-
-# Traningdan so'ng
-print("Bashorat (training dan keyin)",  "4 saot o'qilganda: ", forward(4).item())
-
-
+print(f"Bashorat (training'dan keyin): Soat: 4, Baho: {forward(4).item()}")
