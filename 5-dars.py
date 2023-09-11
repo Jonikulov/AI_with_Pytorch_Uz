@@ -1,5 +1,6 @@
 #Kerakli kutubxonalarni chaqirib olish 
-import torch 
+import torch
+
 import numpy as np
 #Ma'lumotlarni tensor ko'rinishida yuklab olish
 x_soat = torch.Tensor([[1.0],
